@@ -44,9 +44,10 @@ export default function RootLayout({
         />
       </head>
       <body className={`font-sans antialiased`}>
-        {children}
+        <<VoiceVoiceProvider>{children}</VoiceProvider>
         <Analytics />
-      </body>
+          <<VoiceVoiceTrigger />
+</body>
     </html>
   )
 }
